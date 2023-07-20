@@ -7,7 +7,6 @@ import json
 
 app = Flask(__name__)
 
-TERRAFORM_API_TOKEN = "e1QMd3wblDjntQ.atlasv1.zVveHuPFPK2Fj3UPRj1vuuXHkwEaCNXurJFDzN4kWcxjkQwIGQvwonzbI9i1LaSgm6E"
 TERRAFORM_WORKSPACE_ID = "ws-nqGgwH4VhMCF6zat"
 
 @app.route('/run-workload', methods=['POST'])
