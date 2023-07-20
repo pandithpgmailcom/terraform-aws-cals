@@ -20,8 +20,6 @@ terraform {
 
 provider "aws" {
   region  = "us-east-1"
-  access_key = "AKIAYV7RLYM52CY6MVN7"
-  secret_key = "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"
 }
 
 ## Amazon Linux 2023 AMI Free Tier Eligible
