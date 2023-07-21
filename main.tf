@@ -3,7 +3,7 @@ terraform {
     organization = "calsoft-t"
     hostname = "app.terraform.io"
 	workspaces {
-      name = "api-calsoft"
+      name = "terraform-aws-cals"
     }
 	
 	}
