@@ -25,7 +25,7 @@ variable "aws_session_token" {
 }
 provider "aws" {
   region  = "us-east-1"
-  token = "var.aws_session_token"
+  aws_session_token = "var.aws_session_token"
   access_key = "var.access_key"
   secret_key = "var.secret_key"
 }
