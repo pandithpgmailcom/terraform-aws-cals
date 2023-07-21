@@ -20,6 +20,9 @@ variable "secret_key" {
     default = "5"
 }
 
+variable "aws_session_token" {
+  description = "Temporary session token used to create instances"
+}
 provider "aws" {
   region  = "us-east-1"
   access_key = "var.access_key"
