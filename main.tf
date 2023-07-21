@@ -16,12 +16,23 @@ terraform {
   }
 
   required_version = ">= 1.2.0"
+}	
+
+variable "access_key" {
+    description = "AWS access key"
+    default = "5"
 }
+
+variable "secret_key" {
+    description = "AWS secret key"
+    default = "5"
+}
+
 
 provider "aws" {
   region  = "us-east-1"
-  access_key = "${var.access_key}"
-  secret_key = "${var.secret_key}"
+  access_key = "var.access_key"
+  secret_key = "var.secret_key"
 }
 
 ## Amazon Linux 2023 AMI Free Tier Eligible
