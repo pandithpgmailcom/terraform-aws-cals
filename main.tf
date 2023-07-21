@@ -10,9 +10,6 @@ terraform {
 
   }
 
-  required_version = ">= 1.2.0"
-}	
-
 variable "access_key" {
     description = "AWS access key"
     default = "5"
